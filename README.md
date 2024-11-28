@@ -11,5 +11,5 @@ CACTI for FinFETs operating at Cryogenc temperature of 10K for 7-nm technology n
 9.  Go into the cryo_cacti directory: cd cryo_cacti
 10. Follow README file in cryo_cacti for instructions on compiling.
 11. Run an example of finfet operating at 300K and 10K using the following instructions:
-    a.  ./cacti -infile configs/2MB_300K.cfg
-    b.  ./cacti -infile configs/2MB_10K.cfg
+    (a)  ./cacti -infile configs/2MB_300K.cfg
+    (b)  ./cacti -infile configs/2MB_10K.cfg
