@@ -5,7 +5,7 @@ CACTI for FinFETs at Cryogenc temperature of 10K for 7-nm technology node
 3.  Download cryo_cacti.patch from https://github.com/marg-tools/Cryo-CACTI
 4.  Download cryo-cacti_patch.sh from https://github.com/marg-tools/Cryo-CACTI
 5.  Make sure all the downloaded files (configs.tgz, cryo_cacti.patch, cryo-cacti_patch.sh, pcacti.tar) are in same folder.
-6.  Invoke chmod +x fncacti_patch.sh to make the script executable
+6.  Invoke chmod +x cryo-cacti_patch.sh to make the script executable
 7.  Run the script as: ./cryo-cacti_patch.sh
 8.  A directory named cryo_cacti is created which contains the patched CACTI code as well as compiled executable
 9.  Go into the cryo_cacti directory: cd cryo_cacti
