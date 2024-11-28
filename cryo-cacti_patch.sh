@@ -8,17 +8,18 @@ fi
 tar -xvf pcacti.tar
 tar -xvzf config_files
 
-cd pcacti_xml
+mv pcacti_xml cryo_cacti
+cd cryo_cacti
 
 # -p n : strip the smallest prefix containing n number of slashes 
 # you can do a dry run by adding --dry-run 
 # or use a backup of the file before it gets patched with -b
 
-# patch -p1 --dry-run < ../fncacti.patch
+# patch -p1 --dry-run < ../cryo_cacti.patch
 
 patch -p1 < ../cryo_cacti.patch
 
-# remove config files provided by pcacti as the fncacti config files have a different format
+# remove config files provided by pcacti as the cryo_cacti config files have a different format
 rm -rf xmls/
 mkdir configs/
 
